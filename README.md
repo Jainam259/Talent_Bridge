@@ -1,141 +1,69 @@
-# TalentBridge 
+# 🚀 TalentBridge – AI Powered Job Recruitment Platform
 
+TalentBridge is a **Full Stack Job Recruitment Platform** built using **React.js and Django** that connects **job seekers with employers** through a modern hiring system.
 
+The platform allows employers to **post job openings, manage applicants, and evaluate candidates**, while job seekers can **search jobs, apply instantly, and track their application progress**.
 
-# Talent Bridge
-
-Talent Bridge is a platform that connects job seekers with employers, enabling profile creation and job searches. It streamlines the hiring process, making candidate-employer matching more efficient.
-
-## Features
-
-- User profile creation for job seekers
-- Job search functionality
-- Employer job postings
-- Streamlined hiring process
-
-## Technologies Used
-
-- **Frontend**: React.js
-- **Backend**: Django
-- **Database**: SQLite
-
-## Installation
-
-### Prerequisites
-
-Ensure you have the following installed:
-
-- Node.js
-- Python
-
-### Backend Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/talent-bridge.git
-   cd talent-bridge/backend
-   ```
-2. Create a virtual environment and activate it:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Apply database migrations:
-   ```bash
-   python manage.py migrate
-   ```
-5. Start the Django server:
-   ```bash
-   python manage.py runserver
-   ```
-
-### Frontend Setup
-
-1. Navigate to the frontend directory:
-   ```bash
-   cd ../frontend
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the React app:
-   ```bash
-   npm start
-   ```
-
-## Usage
-
-1. Open the browser and go to `http://localhost:3000/`
-2. Create a profile as a job seeker or employer
-3. Search for jobs or post job listings
-4. Connect and hire seamlessly
-
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
-## Contact
-
-For any queries, reach out at:
-- Personal Email: [jainamshah898@gmail.com](mailto:jainamshah898@gmail.com)
-- Phone: 6354592403
-
-# 🚀 Talent Bridge – Full Stack Job Application Platform
-
-Talent Bridge is a full-stack job application platform that connects job seekers with employers through a secure and scalable system.  
-It enables employers to post and manage job listings while allowing candidates to browse and apply seamlessly.
-
-The application implements JWT-based authentication, protected REST APIs, and role-based access control.
+It also integrates an **ATS (Applicant Tracking System)** that helps recruiters analyze and rank candidate resumes.
 
 ---
 
-## 🛠 Tech Stack
+# 🌟 Key Features
+
+## 👨‍💻 Job Seekers
+
+* Create professional user profiles
+* Upload resumes
+* Search and filter job listings
+* Apply to jobs instantly
+* Track application progress
+* View interview and hiring status
+
+## 🏢 Employers
+
+* Employer account registration
+* Post new job listings
+* Manage job postings
+* View and manage applicants
+* Track hiring pipeline
+
+## 🤖 ATS Resume Ranking
+
+TalentBridge includes an **ATS system** that:
+
+* Analyzes uploaded resumes
+* Matches skills with job requirements
+* Ranks candidates based on relevance
+* Helps recruiters shortlist candidates faster
+
+---
+
+# 🛠 Tech Stack
 
 ### Frontend
-- React.js
-- Axios
-- React Router
+
+* React.js
+* React Router
+* Axios
+* CSS / Tailwind Styled UI
 
 ### Backend
-- Django
-- Django REST Framework
-- JWT Authentication (SimpleJWT)
+
+* Django
+* Django REST Framework
 
 ### Database
-- SQLite (Development)
+
+* SQLite (Development)
+
+### Authentication
+
+* Session-based authentication
+* Secure password hashing
 
 ---
 
-## ✨ Core Features
-
-### 👤 User Roles
-- Employer registration & login
-- Job Seeker registration & login
-
-### 🏢 Employer
-- Create and manage job postings
-- View applicants
-- Secure role-based access
-
-### 👨‍💻 Job Seeker
-- Create profile
-- Browse available jobs
-- Apply for jobs
-
-### 🔐 Authentication & Security
-- JWT-based authentication (Access & Refresh Tokens)
-- Protected API endpoints
-- Stateless authentication system
-- Secure password hashing
-
----
-
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 TalentBridge/
@@ -149,6 +77,7 @@ TalentBridge/
 │
 ├── frontend/
 │   ├── src/
+│   ├── components/
 │   └── package.json
 │
 └── README.md
@@ -156,92 +85,183 @@ TalentBridge/
 
 ---
 
-## ⚙️ Backend Setup
+# 🖥 Application Screenshots
 
-### 1️⃣ Clone Repository
+## 🏠 Home Page
 
-```bash
-git clone https://github.com/yourusername/TALENT_BRIDGE.git
-cd TALENT_BRIDGE/backend
+![Home Page](screenshots/home.png)
+
+## 🔐 Login Page
+
+![Login Page](screenshots/login.png)
+
+## 👤 Job Seeker Registration
+
+![Registration](screenshots/register.png)
+
+## 🔎 Job Listings
+
+![Job Listings](screenshots/job-listings.png)
+
+## 📄 Applications Dashboard
+
+![Applications Dashboard](screenshots/applications.png)
+
+## 🏢 Employer Dashboard
+
+![Employer Dashboard](screenshots/employer-dashboard.png)
+
+## 📝 Post Job
+
+![Post Job](screenshots/post-job.png)
+
+---
+
+# ⚙️ Installation Guide
+
+## Prerequisites
+
+Make sure the following are installed:
+
+* Python 3.x
+* Node.js
+* npm
+
+---
+
+# Backend Setup (Django)
+
+### 1️⃣ Clone the Repository
+
+```
+git clone https://github.com/Jainam259/Talent_Bridge.git
+cd Talent_Bridge
 ```
 
 ### 2️⃣ Create Virtual Environment
 
-```bash
+```
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+```
+
+Activate environment
+
+Windows
+
+```
+venv\Scripts\activate
+```
+
+Mac/Linux
+
+```
+source venv/bin/activate
 ```
 
 ### 3️⃣ Install Dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Apply Migrations
+### 4️⃣ Run Migrations
 
-```bash
+```
 python manage.py migrate
 ```
 
-### 5️⃣ Run Server
+### 5️⃣ Start Backend Server
 
-```bash
+```
 python manage.py runserver
 ```
 
-Backend runs at:
+Backend will run on:
+
 ```
 http://127.0.0.1:8000
 ```
 
 ---
 
-## ⚙️ Frontend Setup
+# Frontend Setup (React)
 
-```bash
-cd ../frontend
+Navigate to frontend folder
+
+```
+cd frontend
+```
+
+Install dependencies
+
+```
 npm install
+```
+
+Start React application
+
+```
 npm start
 ```
 
-Frontend runs at:
+Frontend runs on
+
 ```
 http://localhost:3000
 ```
 
 ---
 
-## 📌 Sample API Endpoints
+# 📡 Example API Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|------------|
-| POST | /users/api/register-employer/ | Register Employer |
-| POST | /users/api/register-jobseeker/ | Register Job Seeker |
-| POST | /users/api/login/ | Login (Returns JWT tokens) |
-| GET | /users/api/profile/<id>/ | Protected route |
-
----
-
-## 🔎 Example Protected Request
-
-```
-GET /users/api/profile/1/
-Authorization: Bearer <access_token>
-```
+| Method | Endpoint                   | Description         |
+| ------ | -------------------------- | ------------------- |
+| POST   | /users/register-jobseeker/ | Register Job Seeker |
+| POST   | /users/register-employer/  | Register Employer   |
+| POST   | /users/login/              | Login               |
+| GET    | /jobs/                     | Get job listings    |
+| POST   | /applications/apply/       | Apply for job       |
 
 ---
 
-## 🧠 Learning Outcomes
+# 📚 Learning Outcomes
 
-- Designed relational database models
-- Implemented JWT-based stateless authentication
-- Built secure REST APIs using Django REST Framework
-- Integrated React frontend with Django backend
-- Implemented role-based access control
+Through building TalentBridge, the following concepts were implemented:
+
+* Full Stack Web Development
+* REST API Development using Django
+* React Component Architecture
+* Database Modeling
+* Authentication & Security
+* Application Tracking System design
 
 ---
 
-## 📬 Contact
+# 👨‍💻 Developer
 
-For collaboration or queries, connect via GitHub.
+**Jainam Shah**
+
+📧 Email
+[jainamshah898@gmail.com](mailto:jainamshah898@gmail.com)
+
+📱 Phone
++91 6354592403
+
+GitHub
+https://github.com/Jainam259
+
+---
+
+# ⭐ Support
+
+If you like this project, please **give it a star ⭐ on GitHub**.
+
+---
+
+# 📌 Future Improvements
+
+* Deploy project on cloud
+* Add AI-based resume matching
+* Integrate email notifications
+* Add interview scheduling system
+* Improve ATS scoring algorithm
