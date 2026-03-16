@@ -67,7 +67,7 @@ The platform implements **JWT-based authentication**, **protected REST APIs**, a
 
 ### 🏠 Home Page (Job Seeker View)
 
-![Home Hero](screenshots/Screenshot_2026-03-16_111911.png)
+![Home Hero](Screenshot 2026-03-16 111704.png)
 
 ![Features Section](screenshots/Screenshot_2026-03-16_111936.png)
 
