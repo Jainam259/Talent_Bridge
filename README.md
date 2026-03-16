@@ -1,129 +1,179 @@
-# 🌉 TalentBridge — Full Stack Job Application Platform
+# TalentBridge 
 
-> Connecting ambitious professionals with companies that actually value what they bring.
-> No noise — just the right fit, faster.
+<img width="1142" height="732" alt="Screenshot 2026-03-16 112759" src="https://github.com/user-attachments/assets/fcaf1c2f-e7e4-4fcf-aa62-ca0f9930a23f" />
+<img width="1105" height="561" alt="Screenshot 2026-03-16 112734" src="https://github.com/user-attachments/assets/b1c10e96-d168-4bdb-b099-7b4ff0a5c7e5" />
+<img width="706" height="478" alt="Screenshot 2026-03-16 112708" src="https://github.com/user-attachments/assets/2edf37f5-c932-47d7-907d-b9a3fd282375" />
+<img width="1875" height="894" alt="Screenshot 2026-03-16 112657" src="https://github.com/user-attachments/assets/502e329e-a089-47c8-abef-9b117a4d0fe0" />
+<img width="1897" height="961" alt="Screenshot 2026-03-16 112526" src="https://github.com/user-attachments/assets/666f0117-b614-4ea0-8ff7-0a71ef091f83" />
+<img width="1919" height="971" alt="Screenshot 2026-03-16 112457" src="https://github.com/user-attachments/assets/07a1fcbd-e6f9-4f2c-8fc3-33bd6ad16057" />
+<img width="1879" height="959" alt="Screenshot 2026-03-16 112411" src="https://github.com/user-attachments/assets/8eb28489-a3fb-4144-918b-7ab39204354c" />
+<img width="1880" height="971" alt="Screenshot 2026-03-16 112400" src="https://github.com/user-attachments/assets/157c8f5d-3137-45cf-83d6-81cc4813b0ee" />
+<img width="1890" height="966" alt="Screenshot 2026-03-16 112334" src="https://github.com/user-attachments/assets/623d7e3f-8f33-4fa4-a5e1-00ff2435b8ed" />
+<img width="1889" height="964" alt="Screenshot 2026-03-16 112308" src="https://github.com/user-attachments/assets/071e1cfd-4966-4851-bf5f-ed297a8717e0" />
+<img width="1890" height="969" alt="Screenshot 2026-03-16 112244" src="https://github.com/user-attachments/assets/4506a480-28ff-419b-8d33-5fb2906040f0" />
+<img width="1889" height="949" alt="Screenshot 2026-03-16 112221" src="https://github.com/user-attachments/assets/3b845ac2-793e-4d4e-a40c-c9526834ea70" />
+<img width="1889" height="965" alt="Screenshot 2026-03-16 112209" src="https://github.com/user-attachments/assets/ede86106-41ad-4c66-80ca-a38cee0c8c9c" />
+<img width="1902" height="942" alt="Screenshot 2026-03-16 112147" src="https://github.com/user-attachments/assets/a2cb4a1c-444d-4b7c-8074-c2af42a061fa" />
+<img width="1888" height="953" alt="Screenshot 2026-03-16 112126" src="https://github.com/user-attachments/assets/d42eed43-e9d7-45fd-a7e0-7595c69cdd54" />
+<img width="1894" height="976" alt="Screenshot 2026-03-16 112111" src="https://github.com/user-attachments/assets/cb885490-f3c5-490d-ad56-ef7076fa087f" />
+<img width="1896" height="975" alt="Screenshot 2026-03-16 112044" src="https://github.com/user-attachments/assets/93f16c8b-6cb3-42c6-8990-c323673c6b42" />
+<img width="1894" height="962" alt="Screenshot 2026-03-16 112021" src="https://github.com/user-attachments/assets/fb7795e9-6262-429c-9144-1ba637850744" />
+<img width="19" height="833" alt="Screenshot 2026-03-16 112009" src="https://github.com/user-attachments/assets/e75b1ad2-df43-4175-8c35-a6aa6887eae7" />
+<img width="1895" height="959" alt="Screenshot 2026-03-16 111955" src="https://github.com/user-attachments/assets/74b1bcf1-22c4-4d96-a2b2-1a8e4f9a88e3" />
+<img width="1898" height="951" alt="Screenshot 2026-03-16 111936" src="https://github.com/user-attachments/assets/f3522a7a-6125-48e9-ad10-5362c35f8eec" />
+<img width="1919" height="963" alt="Screenshot 2026-03-16 111911" src="https://github.com/user-attachments/assets/fd6adaa2-1023-469d-a854-8594f9811a38" />
+<img width="1876" height="923" alt="Screenshot 2026-03-16 111734" src="https://github.com/user-attachments/assets/610ccf34-97b1-4f8f-81a4-0e06dbda039a" />
+<img width="1876" height="960" alt="Screenshot 2026-03-16 111704" src="https://github.com/user-attachments/assets/110f2791-1542-41e6-a066-81811f882c66" />
 
----
 
-## 🔗 Quick Links
 
-- [About](#-about-the-project)
-- [Tech Stack](#-tech-stack)
-- [Features](#-features)
-- [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [API Endpoints](#-api-endpoints)
-- [Learning Outcomes](#-learning-outcomes)
-- [Contributing](#-contributing)
-- [Contact](#-contact)
+# Talent Bridge
 
----
+Talent Bridge is a platform that connects job seekers with employers, enabling profile creation and job searches. It streamlines the hiring process, making candidate-employer matching more efficient.
 
-## 🎯 About the Project
+## Features
 
-**TalentBridge** is a production-grade full-stack job platform that streamlines the entire hiring lifecycle — from candidate registration and job browsing to one-click applications and employer applicant management.
+- User profile creation for job seekers
+- Job search functionality
+- Employer job postings
+- Streamlined hiring process
 
-Built with a clean separation between **Job Seeker** and **Employer** roles, the platform implements JWT-based authentication, protected REST APIs, and role-based access control throughout.
+## Technologies Used
+
+- **Frontend**: React.js
+- **Backend**: Django
+- **Database**: SQLite
+
+## Installation
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js
+- Python
+
+### Backend Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/talent-bridge.git
+   cd talent-bridge/backend
+   ```
+2. Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Apply database migrations:
+   ```bash
+   python manage.py migrate
+   ```
+5. Start the Django server:
+   ```bash
+   python manage.py runserver
+   ```
+
+### Frontend Setup
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd ../frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the React app:
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+1. Open the browser and go to `http://localhost:3000/`
+2. Create a profile as a job seeker or employer
+3. Search for jobs or post job listings
+4. Connect and hire seamlessly
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+## Contact
+
+For any queries, reach out at:
+- Personal Email: [jainamshah898@gmail.com](mailto:jainamshah898@gmail.com)
+- Phone: 6354592403
+
+# 🚀 Talent Bridge – Full Stack Job Application Platform
+
+Talent Bridge is a full-stack job application platform that connects job seekers with employers through a secure and scalable system.  
+It enables employers to post and manage job listings while allowing candidates to browse and apply seamlessly.
+
+The application implements JWT-based authentication, protected REST APIs, and role-based access control.
 
 ---
 
 ## 🛠 Tech Stack
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                        FRONTEND                         │
-│   React.js   |   React Router   |   Axios               │
-├─────────────────────────────────────────────────────────┤
-│                        BACKEND                          │
-│   Django   |   Django REST Framework   |   SimpleJWT    │
-├─────────────────────────────────────────────────────────┤
-│                       DATABASE                          │
-│                       SQLite                            │
-└─────────────────────────────────────────────────────────┘
-```
+### Frontend
+- React.js
+- Axios
+- React Router
+
+### Backend
+- Django
+- Django REST Framework
+- JWT Authentication (SimpleJWT)
+
+### Database
+- SQLite (Development)
 
 ---
 
-## ✨ Features
+## ✨ Core Features
 
-### 👤 Dual Role System
+### 👤 User Roles
+- Employer registration & login
+- Job Seeker registration & login
 
-```
-┌────────────────────────────────┐   ┌────────────────────────────────┐
-│        🧑 JOB SEEKER           │   │         🏢 EMPLOYER             │
-├────────────────────────────────┤   ├────────────────────────────────┤
-│  • Multi-step profile setup   │   │  • Two-step company setup      │
-│  • Browse & search jobs       │   │  • Post & manage job listings  │
-│  • Filter by type & location  │   │  • View all applicants         │
-│  • One-click apply            │   │  • ATS rank candidates         │
-│  • Real-time status tracker   │   │  • Update application status   │
-└────────────────────────────────┘   └────────────────────────────────┘
-```
+### 🏢 Employer
+- Create and manage job postings
+- View applicants
+- Secure role-based access
+
+### 👨‍💻 Job Seeker
+- Create profile
+- Browse available jobs
+- Apply for jobs
 
 ### 🔐 Authentication & Security
-
-```
-  JWT Access Token  +  JWT Refresh Token
-        │                     │
-        ▼                     ▼
-  Short-lived auth      Auto-renew session
-  (15 min expiry)       (7 day expiry)
-
-  All sensitive routes → Bearer token required
-  Passwords → PBKDF2 hashing (Django built-in)
-  Roles → Job Seeker and Employer separated
-```
-
-### 🔍 Job Discovery
-
-- Search by job title, skill, or keyword
-- Filter by type — `Full Time` / `Part Time` / `Internship` / `Contract`
-- Filter by location — city or region
-- Live listings across Technology, Design, Finance, Healthcare, and more
-
-### 📊 Application Status Pipeline
-
-```
-  [ Applied ] ──────► [ Interviewed ] ──────► [ Hired ]
-       ●                     ●                    ●
-  Submitted             Shortlisted           Accepted
-```
+- JWT-based authentication (Access & Refresh Tokens)
+- Protected API endpoints
+- Stateless authentication system
+- Secure password hashing
 
 ---
 
 ## 📂 Project Structure
 
 ```
-Talent_Bridge/
+TalentBridge/
 │
-├── TalentBridge/                 ← Django Backend
+├── backend/
 │   ├── users/
-│   │   ├── models.py             ← User & profile models
-│   │   ├── serializers.py
-│   │   ├── views.py              ← Register, login, profile
-│   │   └── urls.py
-│   │
 │   ├── jobs/
-│   │   ├── models.py             ← Job listing model
-│   │   ├── serializers.py
-│   │   ├── views.py              ← CRUD for job postings
-│   │   └── urls.py
-│   │
 │   ├── applications/
-│   │   ├── models.py             ← Application & status model
-│   │   ├── serializers.py
-│   │   ├── views.py              ← Apply, track, update status
-│   │   └── urls.py
-│   │
 │   ├── manage.py
 │   └── requirements.txt
 │
-├── frontend/                     ← React Frontend
+├── frontend/
 │   ├── src/
-│   │   ├── pages/                ← Home, About, Contact, Jobs
-│   │   ├── components/           ← Navbar, Cards, Forms
-│   │   ├── context/              ← Auth state management
-│   │   └── App.js
 │   └── package.json
 │
 └── README.md
@@ -131,154 +181,92 @@ Talent_Bridge/
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Backend Setup
 
-### Prerequisites
-
-- Node.js (v18 or higher)
-- Python (v3.10 or higher)
-
----
-
-### Step 1 — Clone the Repository
+### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/Jainam259/Talent_Bridge.git
-cd Talent_Bridge
+git clone https://github.com/yourusername/TALENT_BRIDGE.git
+cd TALENT_BRIDGE/backend
 ```
 
----
-
-### Step 2 — Backend Setup
+### 2️⃣ Create Virtual Environment
 
 ```bash
-cd TalentBridge
-
-# Create virtual environment
 python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 
-# Activate virtual environment
-source venv/bin/activate          # macOS / Linux
-venv\Scripts\activate             # Windows
+### 3️⃣ Install Dependencies
 
-# Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# Run database migrations
+### 4️⃣ Apply Migrations
+
+```bash
 python manage.py migrate
+```
 
-# Start Django server
+### 5️⃣ Run Server
+
+```bash
 python manage.py runserver
 ```
 
+Backend runs at:
 ```
-Backend running at → http://127.0.0.1:8000
+http://127.0.0.1:8000
 ```
 
 ---
 
-### Step 3 — Frontend Setup
+## ⚙️ Frontend Setup
 
 ```bash
-# Open a new terminal
-cd frontend
-
+cd ../frontend
 npm install
 npm start
 ```
 
+Frontend runs at:
 ```
-Frontend running at → http://localhost:3000
+http://localhost:3000
 ```
 
 ---
 
-## 📌 API Endpoints
+## 📌 Sample API Endpoints
 
-### Users & Auth
+| Method | Endpoint | Description |
+|--------|----------|------------|
+| POST | /users/api/register-employer/ | Register Employer |
+| POST | /users/api/register-jobseeker/ | Register Job Seeker |
+| POST | /users/api/login/ | Login (Returns JWT tokens) |
+| GET | /users/api/profile/<id>/ | Protected route |
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| POST | `/users/api/register-employer/` | No | Register as Employer |
-| POST | `/users/api/register-jobseeker/` | No | Register as Job Seeker |
-| POST | `/users/api/login/` | No | Login — returns JWT tokens |
-| GET | `/users/api/profile/<id>/` | Yes | Get user profile |
+---
 
-### Jobs
+## 🔎 Example Protected Request
 
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| GET | `/jobs/api/listings/` | No | List all job postings |
-| POST | `/jobs/api/listings/` | Employer | Create a job posting |
-| GET | `/jobs/api/listings/<id>/` | No | Get single job detail |
-| DELETE | `/jobs/api/listings/<id>/` | Employer | Delete a job posting |
-
-### Applications
-
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| POST | `/applications/api/apply/` | Job Seeker | Apply for a job |
-| GET | `/applications/api/my-applications/` | Job Seeker | View own applications |
-| GET | `/applications/api/job/<id>/applicants/` | Employer | View all applicants |
-| PATCH | `/applications/api/<id>/status/` | Employer | Update applicant status |
-
-### Protected Request Example
-
-```http
-GET /users/api/profile/1/ HTTP/1.1
-Host: 127.0.0.1:8000
-Authorization: Bearer <your_access_token>
+```
+GET /users/api/profile/1/
+Authorization: Bearer <access_token>
 ```
 
 ---
 
 ## 🧠 Learning Outcomes
 
-- Designed relational database models for a multi-role user system
-- Implemented JWT stateless authentication with access and refresh token rotation
-- Built secure REST APIs using Django REST Framework with role-based permissions
-- Integrated React.js frontend with Django backend using Axios interceptors
-- Applied role-based access control separating Job Seeker and Employer flows
-- Built a real-time application status tracking pipeline with visual progress
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Follow these steps:
-
-```bash
-# 1. Fork the repository on GitHub
-
-# 2. Clone your fork
-git clone https://github.com/YOUR_USERNAME/Talent_Bridge.git
-
-# 3. Create a feature branch
-git checkout -b feature/YourFeatureName
-
-# 4. Commit your changes
-git commit -m "feat: add YourFeatureName"
-
-# 5. Push and open a Pull Request
-git push origin feature/YourFeatureName
-```
+- Designed relational database models
+- Implemented JWT-based stateless authentication
+- Built secure REST APIs using Django REST Framework
+- Integrated React frontend with Django backend
+- Implemented role-based access control
 
 ---
 
 ## 📬 Contact
 
-**Jainam Shah**
-
-- Email — jainamshah898@gmail.com
-- Phone — 6354592403
-- GitHub — https://github.com/Jainam259
-
----
-
-<div align="center">
-
-Made with ❤️ by Jainam Shah
-
-If this project helped you, please give it a ⭐ star!
-
-</div>
+For collaboration or queries, connect via GitHub.
